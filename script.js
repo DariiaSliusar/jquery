@@ -36,13 +36,101 @@ jQuery(function () {
 
     // console.log(id);
 
-    // click()
+    // click(), dblclick, mouseenter, mouseleave
 
     // $('button').click(function () {
     //     alert('test');
     // });
 
-    $('button').on('click',function () {
-        alert('test');
-    });
+    // $('button').on('click',function () {
+    //     alert('test');
+    // });
+
+    // $('button').dblclick(function () {
+    //     alert('1');
+    // });
+
+    // $('button').mouseenter(function () {
+    //     alert('1');
+    // });
+
+    // $('button').mouseleave(function () {
+    //     alert('1');
+    // });
+
+    // keypress, keydown, keyup
+
+    // change, submit, focus
+
+    // $('input[name="name"]').change(function () {
+    //     var value = $(this).val();
+        
+    //     $('input[name="submit"]').val(value);
+    // });
+
+    // $('input[name="name"]').keyup(function () {
+    //     var value = $(this).val();
+        
+    //     $('input[name="submit"]').val(value);
+    // });
+
+    // $('form').submit(function () {
+    //     alert('test');
+    // });
+
+    // css, hide(), show(), delay(), animate(), fadeIn, fadeOut, attr()
+
+    // $('form').css({ 'display':'none' });
+
+    // $('form').hide(1000);
+    
+    // $('form').show(1000);
+
+    // $('form').show(1000).delay(5000).hide(1000);
+
+    // $('#jj').animate({ 'width': '50px' }, 2000);
+
+    // $('#jj').animate({ 'width': '50px' }, 2000);
+
+    // $('#jj').hide(1000);
+
+    // alert($('input[name="name"]').attr('value'));
+
+    // alert($('.first').attr('data-id'));
+    // alert($('.first').data('id'));
+
+    // resize, scroll
+
+    // $(window).resize(function () {
+        // width(), height()
+        // var width = $(this).width();
+        // console.log(width);
+        // var width = $(this).height();
+        // console.log(width);
+    // });
+
+    // addClass, removeClass, toggleClass
+
+    // $('h1').addClass('red');
+
+    // $('h1').hover(function () {
+    //     $(this).addClass('blue');
+    //     // $('h1').addClass('blue');
+
+    //     // $(this).on('click', function () {
+    //     //     $(this).removeClass('blue').removeClass('red');
+    //     // });
+    // });
+
+    // $('h1').hover(function () {
+    //     $(this).toggleClass('blue');
+    // });
+    
+    // $('h1').click(function () {
+    //     $(this).toggleClass('blue');
+    // });
+
+    // text(), html()
+
+    var text = $('.text').text();
 });
