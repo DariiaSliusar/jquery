@@ -132,5 +132,43 @@ jQuery(function () {
 
     // text(), html()
 
-    var text = $('.text').text();
+    // var text = $('.text').text();
+    // $('.text').text('New text');
+    // console.log(text);
+
+    // var newHTML = '<li>TTTT</li><li>Second</li><li>Third</li><li>Fourth</li>';
+    // console.log($('ul').html(newHTML));
+
+    // append, prepend
+
+    // $('ul').append('<li>new li</li>');
+    // $('ul').prepend('<li>new li</li>');
+
+    // remove(), empty(), after
+
+    // $('ul').empty(); видаляє вміст списку
+    // $('ul').remove(); видаляє повністю список
+    // $('ul').after('<span>Hello</span>');
+    // $('ul li:last-child').after('<li>Hello</li>');
+    // $('ul li').after('<li>Hello</li>');
+    // $('ul li:nth-child(3)').after('<li>Hello</li>');
+
+    // wrap, unwrap
+
+    // $('form').wrap('<div class="red"></div>');
+    // $('form').unwrap();
+
+    // SLIDER
+
+    $('.slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+
+    $('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        console.log(nextSlide);
+      });
+
+
 });
