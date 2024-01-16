@@ -1,21 +1,13 @@
-/* img[height='150'] {
-    border: #fc635e 1px solid;
+menu li:nth-child(odd)
+menu li:nth-child(even)
+img[height='150']
+a[href*='#']
+.icons > div
+.icons img + h4
+{
+    border: #fc635e 1px solid; 
 }
-img[src^='img/'] {
-    border: #fc635e 1px solid;
-}
-img[src$='.png'] {
-    border: #fc635e 1px solid;
-} */
-a[href*='#'] {
-    border: #fc635e 1px solid;
-}
-/* .icons > div {
-    border: 1px solid #fc635e;
-}
-.icons img + h4 {
-    border: 1px solid #fc635e;
-} */
+
 
 /**/
 .h2 {
