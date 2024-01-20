@@ -1,4 +1,4 @@
-menu li:nth-child(odd)
+/* menu li:nth-child(odd)
 menu li:nth-child(even)
 img[height='150']
 a[href*='#']
@@ -6,8 +6,10 @@ a[href*='#']
 .icons img + h4
 {
     border: #fc635e 1px solid; 
-}
-
+} */
+/* .mainText {
+    border: 1px solid #fc635e;
+} */
 
 /**/
 .h2 {
@@ -87,7 +89,7 @@ body .mainText {
 }
 
 body .mainText p {
-    color: #fff;
+    color: #O8;
     font-size: 22px;
 }
 
