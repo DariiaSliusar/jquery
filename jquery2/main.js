@@ -99,7 +99,7 @@
 
 // Attribute
 
-$(function () {
+// $(function () {
     // var src = $('.logo img').attr('src', 'icon1.png');
     // alert(src);
 
@@ -118,9 +118,30 @@ $(function () {
     // alert($('nav menu').css('font-size'));
     // $('nav menu li a').css('color', 'red');
     // $('nav menu li a').css('font-size', '25px').css('color', 'green');
-    $('nav menu li a').css({
-        'color': '#ff0000',
-        'font-size': '20px',
-        'padding':'10px'
-    })
+    
+// $('nav menu li a').css({
+    //     'color': '#ff0000',
+    //     'font-size': '24px',
+    //     'padding':'10px'
+    // })
+// });
+
+// $(function () {
+//     $('nav menu li a').animate({
+//         'font-size': '24px',
+//         'padding': '10px'
+//     }, 3000);
+
+//     $('.mainText').before('<span class="">New block</span><p>new</p>');
+//     $('.mainText').after('<span>New block</span>');
+//     $('.mainText').append('<span>New block</span>');
+//     $('.mainText').prepend('<span>New block</span>');
+// });
+
+$(function () {
+    $('.icons img').each(function () {
+        if ($(this).attr('src') == 'icon3.png') {
+            $(this).fadeOut(1000);
+        }
+    });
 });

@@ -10,6 +10,10 @@ a[href*='#']
 /* .mainText {
     border: 1px solid #fc635e;
 } */
+.mainText {
+    border: 1px solid red;
+}
+
 .border {
     border: 1px solid red;
     padding: 10px;
